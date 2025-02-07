@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./yes.css" />
+    <script
+      src="https://kit.fontawesome.com/1e0c1f125e.js" crossorigin="anonymous">
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="music-player">
+        <nav>
+          <div class="circle">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+          <div class="circle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </nav>
+        <div class="flip-card" onclick="flipCard(this)">
+          <div class="flip-inner">
+            <div class="flip-front">
+              <img src="even.jpg" />
+            </div>
+            <div class="flip-back">
+              <p>
+                kupal
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2 class="margin"> </h1>
+        <p class="margin">
+            Click your pic while you play the song. 
+        </p>
+
+        <audio controls class="margin">
+          <source src="blue.mp3" type="audio/mp3" />
+        </audio>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
